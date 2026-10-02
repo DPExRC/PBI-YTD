@@ -1,0 +1,15 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos temporales y de compilación de Power BI
+.tmp/
+dist/
+drop/
+
+# El archivo final empaquetado (opcional, evita subir binarios pesados en cada cambio)
+*.pbiviz
+
+# Archivos de entorno de Visual Studio Code y sistema
+.vscode/
+.DS_Store
+npm-debug.log
